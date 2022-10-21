@@ -23,8 +23,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="src\MakoIoT.Core.Services.Messaging\bin\Release\MakoIoT.Core.Services.Messaging.dll" target="lib\MakoIoT.Core.Services.Messaging.dll" />
-    <file src="src\MakoIoT.Core.Services.Messaging\bin\Release\MakoIoT.Core.Services.Messaging.pdb" target="lib\MakoIoT.Core.Services.Messaging.pdb" />
+    <file src="src\MakoIoT.Core.Services.Messaging\bin\Release\net6.0\MakoIoT.Core.Services.Messaging.dll" target="lib\net6.0\MakoIoT.Core.Services.Messaging.dll" />
+    <file src="src\MakoIoT.Core.Services.Messaging\bin\Release\net6.0\MakoIoT.Core.Services.Messaging.pdb" target="lib\net6.0\MakoIoT.Core.Services.Messaging.pdb" />
     <file src="README.md" target="docs\" />
     <file src="LICENSE.md" target="" />
   </files>
