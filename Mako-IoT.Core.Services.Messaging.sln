@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC16465B-D3DB-4371-8D24-56163DE0F288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A1D0E3C5-D9E6-4EC8-BA95-DFC69E5EA941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0952EF61-C111-4774-BA5D-26AF03F70578}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		Directory.Build.props = Directory.Build.props
+		LICENSE.md = LICENSE.md
+		nuget.config = nuget.config
+		MakoIoT.Core.Services.Messaging.nuspec = MakoIoT.Core.Services.Messaging.nuspec
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakoIoT.Core.Services.Messaging", "src\MakoIoT.Core.Services.Messaging\MakoIoT.Core.Services.Messaging.csproj", "{52502504-4781-490D-ADD1-65935156B0F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakoIoT.Core.Services.Messaging.Test", "Tests\MakoIoT.Core.Services.Messaging.Test\MakoIoT.Core.Services.Messaging.Test.csproj", "{58315E45-D659-4B1B-87B4-921A9EB1E7C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52502504-4781-490D-ADD1-65935156B0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52502504-4781-490D-ADD1-65935156B0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52502504-4781-490D-ADD1-65935156B0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52502504-4781-490D-ADD1-65935156B0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58315E45-D659-4B1B-87B4-921A9EB1E7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58315E45-D659-4B1B-87B4-921A9EB1E7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58315E45-D659-4B1B-87B4-921A9EB1E7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58315E45-D659-4B1B-87B4-921A9EB1E7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52502504-4781-490D-ADD1-65935156B0F1} = {BC16465B-D3DB-4371-8D24-56163DE0F288}
+		{58315E45-D659-4B1B-87B4-921A9EB1E7C1} = {A1D0E3C5-D9E6-4EC8-BA95-DFC69E5EA941}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E967760-12B5-4261-9935-A04AD73A6476}
+	EndGlobalSection
+EndGlobal

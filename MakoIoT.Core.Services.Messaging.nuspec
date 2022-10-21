@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MakoIoT.Core.Services.Messaging</id>
+    <version>$version$</version>
+    <title>MakoIoT.Core.Services.Messaging</title>
+    <authors>CSHARK</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/CShark-Hub/Mako-IoT.Core.Services.Messaging</projectUrl>
+    <repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Core.Services.Messaging" />
+    <copyright>Copyright (c) CSHARK Sp. z o. o.</copyright>
+    <description>Message bus for .NET Core components of MAKO-IoT</description>
+    <tags>mako-iot core messaging messagebus</tags>
+    <dependencies>
+		<dependency id="MakoIoT.Core.Services.Interface" version="1.0.5" />
+		<dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.2" />
+		<dependency id="Newtonsoft.Json" version="13.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\MakoIoT.Core.Services.Messaging\bin\Release\MakoIoT.Core.Services.Messaging.dll" target="lib\MakoIoT.Core.Services.Messaging.dll" />
+    <file src="src\MakoIoT.Core.Services.Messaging\bin\Release\MakoIoT.Core.Services.Messaging.pdb" target="lib\MakoIoT.Core.Services.Messaging.pdb" />
+    <file src="README.md" target="docs\" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>
