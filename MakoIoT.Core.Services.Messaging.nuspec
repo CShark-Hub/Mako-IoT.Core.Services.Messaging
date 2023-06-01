@@ -17,9 +17,9 @@
     <description>Message bus for .NET Core components of MAKO-IoT</description>
     <tags>mako-iot core messaging messagebus</tags>
     <dependencies>
-		<dependency id="MakoIoT.Core.Services.Interface" version="1.0.5" />
-		<dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.2" />
-		<dependency id="Newtonsoft.Json" version="13.0.1" />
+		<dependency id="MakoIoT.Core.Services.Interface" version="1.0.20" />
+		<dependency id="Microsoft.Extensions.Logging.Abstractions" version="7.0.0" />
+		<dependency id="Newtonsoft.Json" version="13.0.3" />
     </dependencies>
   </metadata>
   <files>

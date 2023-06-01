@@ -12,7 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		azure-pipelines.yml = azure-pipelines.yml
 		Directory.Build.props = Directory.Build.props
 		LICENSE.md = LICENSE.md
-		nuget.config = nuget.config
 		MakoIoT.Core.Services.Messaging.nuspec = MakoIoT.Core.Services.Messaging.nuspec
 		README.md = README.md
 		version.json = version.json
